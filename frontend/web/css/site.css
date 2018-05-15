@@ -121,3 +121,6 @@ a.desc:after {
 .navbar-brand img {
   max-width: 200px;
 }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}

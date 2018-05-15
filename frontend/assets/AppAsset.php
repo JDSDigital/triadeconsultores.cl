@@ -39,7 +39,7 @@ class AppAsset extends AssetBundle
         'js/jquery.easypiechart.min.js',
         'js/jquery.nicescroll.min.js',
         'js/jquery.parallax.js',
-        'js/mediaelement-and-player.js',
+        // 'js/mediaelement-and-player.js',
         'js/jquery.themepunch.plugins.min.js',
         'js/jquery.themepunch.revolution.min.js',
         'js/script.js',
