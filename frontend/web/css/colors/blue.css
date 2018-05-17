@@ -10,6 +10,22 @@ a {
 	background-color: #001e66;
 }
 
+.accent-color-2 {
+	color: #008337;
+}
+
+.accent-color-bg-2 {
+	background-color: #008337;
+}
+
+.accent-color-3 {
+	color: #daca37;
+}
+
+.accent-color-bg-3 {
+	background-color: #daca37;
+}
+
 .top-bar a:hover {
 	color: #001e66;
 }

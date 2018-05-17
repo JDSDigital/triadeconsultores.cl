@@ -28,8 +28,9 @@
 
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800); */
+/* @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic); */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700'); */
 
 
 
@@ -39,7 +40,8 @@
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	font-size: 13px;
     line-height: 21px;
 	font-weight: 300;
@@ -84,7 +86,7 @@ i {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monserrat', sans-serif;
 	font-weight: 600;
 	margin: 0;
 	color: #444;
@@ -123,7 +125,7 @@ h6 {
 p {
     color: #888;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 22px;
     margin: 0;
 }
@@ -164,7 +166,7 @@ a.main-button, input[type="submit"] {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     padding: 6px 16px;
@@ -654,7 +656,7 @@ ul.social-list li:last-child a i {
     display: block;
     color: #aaa;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 9px 14px;
     text-decoration: none;
     text-transform: capitalize;
@@ -821,7 +823,7 @@ ul.breadcrumbs {
 }
 
 ul.breadcrumbs li {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	font-weight: 300;
     margin-left: 3px;
@@ -876,7 +878,7 @@ input[type="submit"] {
 #respond textarea {
     color: #aaafb5;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     border: 1px solid #eee;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -968,7 +970,7 @@ input[type="submit"] {
 }
 
 .tparrows:before {
-    font-family: "fontello";
+    font-family: "Raleway";
 	font-style: normal;
 	font-weight: normal;
 	speak: none;
@@ -1014,6 +1016,11 @@ input[type="submit"] {
 /******** Custom Captions ********/
 .tp-caption.big_font_size {
 	font-size: 36px;
+	line-height: 36px;
+}
+
+.tp-caption.biggest_font_size {
+	font-size: 60px;
 	line-height: 36px;
 }
 
@@ -2528,7 +2535,7 @@ ul.icons-list li i {
 }
 
 .testimonials:after {
-	font-family: "fontello";
+	font-family: "Raleway";
 	content: '\eb5f';
 	font-size: 6em;
 	line-height: 70px;
@@ -2541,7 +2548,7 @@ ul.icons-list li i {
 }
 
 .testimonials .testimonial-content p {
-	font-family: 'Lora', serif;
+	font-family: 'Raleway', serif;
 	font-size: 24px;
 	line-height: 36px;
 	font-style: italic;
@@ -2594,7 +2601,7 @@ ul.icons-list li i {
 }
 
 .classic-testimonials .testimonial-content:after {
-	font-family: "fontello";
+	font-family: "Raleway";
 	content: '\eba4';
 	font-size: 2em;
 	height: 8px;
@@ -3317,7 +3324,7 @@ ul.icons-list li i {
 }
 
 .blog-post.quote-post .qoute-box h2 {
-	font-family: 'Lora', serif;
+	font-family: 'Raleway', serif;
 	font-size: 18px;
 	line-height: 26px;
 	font-style: italic;
