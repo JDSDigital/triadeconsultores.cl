@@ -42,6 +42,7 @@ class AppAsset extends AssetBundle
         // 'js/mediaelement-and-player.js',
         'js/jquery.themepunch.plugins.min.js',
         'js/jquery.themepunch.revolution.min.js',
+        'js/wow.min.js',
         'js/script.js',
     ];
     public $depends = [
