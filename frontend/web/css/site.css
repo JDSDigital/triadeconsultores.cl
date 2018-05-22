@@ -3,6 +3,15 @@ body {
     height: 100%;
 }
 
+.vertical-align {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
 .wrap {
     min-height: 100%;
     height: auto;

@@ -77,22 +77,28 @@ $this->title = 'Triade Consultores';
                   <h2 class="">Quienes Somos</h2>
               </div>
           </div>
-          <div class="row">
-            <div class="col-md-5">
+
+          <div class="hr5 mt10 mb50"></div>
+
+          <div class="row vertical-align">
+            <div class="col-md-4">
               <?= Html::img(Yii::getAlias('@web') . '/images/bg/06.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
             </div>
-            <div class="col-md-7 text-justify">
+            <div class="col-md-8 text-justify">
               <p>Somos un equipo de profesionales de las Cs. Humanas, expertos en la búsqueda de personal ajustado a las necesidades de cada uno de nuestros clientes.</p>
               <p>Además de contar con una red de profesionales a nivel nacional que apoyan nuestra gestión, en el ámbito de la evaluación y en el entrenamiento de las habilidades requeridas para que el personal se desempeñe efectivamente en todas sus funciones.</p>
+            </div>
+          </div>
+
+          <div class="row vertical-align mt30 mb50">
+            <div class="col-md-8 text-justify">
               <p>Como consultores, consideramos relevante la entrega de servicios personalizados y adecuados al contexto, focalizados en la calidad.</p>
               <p>Finalmente, el trato que tenemos con cada uno de nuestros clientes es directo, nos interesa la retroalimentación constante, de tal manera que cada proceso que se lleve a cabo sea efectivo y contextualizado al tipo de organización.</p>
             </div>
+            <div class="col-md-4">
+              <?= Html::img(Yii::getAlias('@web') . '/images/bg/03.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
+            </div>
           </div>
-      </div>
-
-      <!-- Divider -->
-      <div class="container">
-        <div class="hr5 mt50 mb50"></div>
       </div>
 
       <div class="mision bg-parallax" style="background: url('./images/bg/07.jpg'); background-size: cover; background-position: center;">
@@ -103,6 +109,10 @@ $this->title = 'Triade Consultores';
                     <h2 class="wite-text">Nuestra Misión y Visión</h2>
                 </div>
             </div>
+
+            <!-- Divider -->
+            <div class="hr5-white mt10 mb50"></div>
+
             <p class="wite-text">Asesorar a nuestros clientes en materia de RrHh, mediante la búsqueda eficiente y efectiva, que favorezca la implementación de planes de capacitación y el desarrollo de habilidades indispensables para la organización.</p>
 
             <p class="wite-text">Potenciar lazos de confianza con cada uno de nuestros clientes, asesorándolos en las diversas temáticas organizacionales, lo que nos convierte en una empresa con una clara orientación al capital humano.</p>
@@ -112,10 +122,16 @@ $this->title = 'Triade Consultores';
 
       <div class="container">
 
-          <!-- Divider -->
-          <div class="hr5 mt50 mb50"></div>
+          <div class="row mt50 mb10">
+              <div class="col-md-12 big-title text-center">
+                  <h2 class="">Algunos de Nuestros Clientes</h2>
+              </div>
+          </div>
 
-          <div class="section" style="padding-top:35px; padding-bottom:20px; border-top:0; border-bottom:0; background:#fff;">
+          <!-- Divider -->
+          <div class="hr5 mt10 mb50"></div>
+
+          <div class="section" style="padding-top:10px; padding-bottom:50px; border-top:0; border-bottom:0; background:#fff;">
               <div class="container">
 
                   <!-- Start Clients Carousel -->
