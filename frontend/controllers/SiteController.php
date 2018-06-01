@@ -115,7 +115,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionContact()
+    public function actionContacto()
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -212,4 +212,22 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }*/
+
+    public function actionClientes ()
+    {
+        $clients = [
+            ['image' => 'c1.png'],
+            ['image' => 'c2.png'],
+            ['image' => 'c3.png'],
+            ['image' => 'c4.png'],
+            ['image' => 'c5.png'],
+            ['image' => 'c6.png'],
+            ['image' => 'c7.png'],
+            ['image' => 'c8.png'],
+        ];
+
+        return $this->render('clientes', [
+            'clients' => $clients,
+        ]);
+    }
 }

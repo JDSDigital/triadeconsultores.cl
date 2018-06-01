@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
+use common\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
@@ -179,11 +179,11 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
         ],
     ]);
     $menuItems = [
-        ['label' => 'Inicio', 'url' => ['/site/index']],
+        ['label' => 'Inicio', 'url' => ['//site/index']],
         ['label' => 'Servicios'],
         ['label' => 'Galería'],
-        ['label' => 'Clientes'],
-        ['label' => 'Contacto'],
+        ['label' => 'Clientes', 'url' => ['//site/clientes']],
+        ['label' => 'Contacto', 'url' => ['//site/contacto']],
     ];
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
@@ -196,6 +196,11 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
     <div class="">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            'title' => isset($this->params['title']) ? $this->params['title'] : [],
+            'subtitle' => isset($this->params['subtitle']) ? $this->params['subtitle'] : [],
+            'options' => [
+              'class' => 'breadcrumbs',
+            ],
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
@@ -235,8 +240,8 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
             <li><?= Html::a('Inicio', ['//site/index']) ?></li>
             <li><?= Html::a('Servicios') ?></li>
             <li><?= Html::a('Galería') ?></li>
-            <li><?= Html::a('Clientes') ?></li>
-            <li><?= Html::a('Contacto') ?></li>
+            <li><?= Html::a('Clientes', ['//site/clientes']) ?></li>
+            <li><?= Html::a('Contacto', ['//site/contacto']) ?></li>
           </ul>
         </div>
       </div>

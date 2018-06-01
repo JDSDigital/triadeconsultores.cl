@@ -3,7 +3,7 @@
 var $ = jQuery.noConflict();
 
 // Page Loader
-$(window).load(function(){
+$(window).on('load', function(){
 	$('#loader').fadeOut();
 });
 
@@ -21,7 +21,7 @@ $(document).ready(function($) {
 		$('.hidden-header').css({ 'height' : $headerHeight  + "px" });
 	};
 
-	$(window).load(function () {
+	$(window).on('load', function () {
 	  headerEle();
 	});
 
@@ -590,7 +590,7 @@ $(document).ready(function($) {
 /*	Portfolio Isotope
 /*----------------------------------------------------*/
 
-jQuery(window).load(function(){
+jQuery(window).on('load', function(){
 
 	var $container = $('#portfolio');
 	$container.isotope({

@@ -7,39 +7,53 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
+use yii\web\View;
 
-$this->title = 'Contact';
+$this->title = 'Contacto';
 $this->params['breadcrumbs'][] = $this->title;
+$this->params['title'][] = $this->title;
+$this->params['subtitle'][] = 'Estamos ansiosos por conocerte';
 ?>
-<div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-    </p>
+<div class="container pt50 pb50">
 
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-6">
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
+            <div class="row">
+              <div class="col-md-4">
                 <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
-
+              </div>
+              <div class="col-md-4">
                 <?= $form->field($model, 'email') ?>
-
+              </div>
+              <div class="col-md-4">
                 <?= $form->field($model, 'subject') ?>
-
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
                 <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
-
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
                 <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                ]) ?>
-
+                  'template' => '<div class="row"><div class="col-lg-4">{image}</div><div class="col-lg-8">{input}</div></div>',
+                  ]) ?>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
                 <div class="form-group">
-                    <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                  <?= Html::submitButton('Enviar', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                 </div>
-
+              </div>
+            </div>
             <?php ActiveForm::end(); ?>
         </div>
+        <div class="col-lg-6 contact-map">
+            <iframe src="https://maps.google.com/?ie=UTF8&amp;q=-33.442636,-70.640467&amp;spn=0.031112,0.038581&amp;t=m&amp;z=15&amp;output=embed"></iframe>
+        </div>
     </div>
-
 </div>

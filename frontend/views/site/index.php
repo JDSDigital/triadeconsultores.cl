@@ -19,7 +19,7 @@ $this->title = 'Triade Consultores';
                   <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
 
                       <!-- MAIN IMAGE -->
-                      <img src="./images/bg/04-2.jpg" data-fullwidthcentering="on" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                      <img src="<?= Yii::getAlias('@web') . '/images/bg/04-2.jpg' ?>" data-fullwidthcentering="on" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                       <!-- LAYER NR. 1 -->
                       <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sft start"
@@ -58,7 +58,7 @@ $this->title = 'Triade Consultores';
 
                           data-speed="1000"
                           data-start="1000"
-                          data-easing="Power1.easeOut"><img src="images/slide-02-image-01.png" alt="" />
+                          data-easing="Power1.easeOut"><img src="<?= Yii::getAlias('@web') . '/images/slide-02-image-01.png' ?>" alt="" />
                       </div>
 
                   </li>
@@ -101,7 +101,7 @@ $this->title = 'Triade Consultores';
           </div>
       </div>
 
-      <div class="mision bg-parallax" style="background: url('./images/bg/07.jpg'); background-size: cover; background-position: center;">
+      <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/07.jpg" ?>'); background-size: cover; background-position: center;">
         <div class="filter pt50 pb30">
           <div class="container text-justify">
             <div class="row mb10">
@@ -140,42 +140,42 @@ $this->title = 'Triade Consultores';
 
                             <!-- Client 1 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c1.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c1.png') ?></a>
                             </div>
 
                             <!-- Client 2 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c2.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c2.png') ?></a>
                             </div>
 
                             <!-- Client 3 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c3.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c3.png') ?></a>
                             </div>
 
                             <!-- Client 4 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c4.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c4.png') ?></a>
                             </div>
 
                             <!-- Client 5 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c5.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c5.png') ?></a>
                             </div>
 
                             <!-- Client 6 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c6.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c6.png') ?></a>
                             </div>
 
                             <!-- Client 7 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c7.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c7.png') ?></a>
                             </div>
 
                             <!-- Client 8 -->
                             <div class="client-item item">
-                              <a href="#"><img src="images/c8.png" alt="" /></a>
+                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c8.png') ?></a>
                             </div>
 
                         </div>
