@@ -12,6 +12,7 @@ use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 /**
  * Breadcrumbs displays a list of links indicating the position of the current page in the whole site hierarchy.
@@ -152,7 +153,10 @@ class Breadcrumbs extends Widget
             $title = $link['label'];
         }
 
-        echo '<div class="page-banner" style="padding:40px 0;">
+        // $url = Url::to(Yii::getAlias('@web') . '/images/gallery/feria/01.jpg');
+        $url = '';
+
+        echo '<div class="page-banner" style="padding:40px 0; background: url(' . $url . ') center #f9f9f9;">
     			<div class="container">
     				<div class="row">
     					<div class="col-md-6">

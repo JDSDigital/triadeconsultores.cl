@@ -181,7 +181,7 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
     $menuItems = [
         ['label' => 'Inicio', 'url' => ['//site/index']],
         ['label' => 'Servicios'],
-        ['label' => 'Galería'],
+        ['label' => 'Galería', 'url' => ['//galeria/index']],
         ['label' => 'Clientes', 'url' => ['//site/clientes']],
         ['label' => 'Contacto', 'url' => ['//site/contacto']],
     ];
@@ -239,7 +239,7 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
           <ul class="footer-nav">
             <li><?= Html::a('Inicio', ['//site/index']) ?></li>
             <li><?= Html::a('Servicios') ?></li>
-            <li><?= Html::a('Galería') ?></li>
+            <li><?= Html::a('Galería', ['//galeria/index']) ?></li>
             <li><?= Html::a('Clientes', ['//site/clientes']) ?></li>
             <li><?= Html::a('Contacto', ['//site/contacto']) ?></li>
           </ul>
