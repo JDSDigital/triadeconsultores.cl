@@ -24,7 +24,7 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
-        // 'js/jquery.min.js',
+        'js/jquery.min.js',
         'js/jquery.migrate.js',
         'js/modernizrr.js',
         'js/bootstrap.js',
