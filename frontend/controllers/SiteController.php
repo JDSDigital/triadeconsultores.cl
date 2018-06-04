@@ -72,7 +72,20 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $clients = [
+            ['image' => 'geotec.png'],
+            ['image' => 'palettas.png'],
+            ['image' => 'burgo.png'],
+            ['image' => 'insitucore.jpg'],
+            ['image' => 'cerronegro.jpg'],
+            ['image' => 'target.png'],
+            ['image' => 'udc.png'],
+            ['image' => 'otecmine.png'],
+        ];
+
+        return $this->render('index', [
+          'clients' => $clients,
+        ]);
     }
 
     /**
@@ -216,18 +229,23 @@ class SiteController extends Controller
     public function actionClientes ()
     {
         $clients = [
-            ['image' => 'c1.png'],
-            ['image' => 'c2.png'],
-            ['image' => 'c3.png'],
-            ['image' => 'c4.png'],
-            ['image' => 'c5.png'],
-            ['image' => 'c6.png'],
-            ['image' => 'c7.png'],
-            ['image' => 'c8.png'],
+            ['image' => 'geotec.png'],
+            ['image' => 'palettas.png'],
+            ['image' => 'burgo.png'],
+            ['image' => 'insitucore.jpg'],
+            ['image' => 'cerronegro.jpg'],
+            ['image' => 'target.png'],
+            ['image' => 'udc.png'],
+            ['image' => 'otecmine.png'],
         ];
 
         return $this->render('clientes', [
             'clients' => $clients,
         ]);
+    }
+
+    public function actionServicios()
+    {
+      return $this->render('servicios');
     }
 }

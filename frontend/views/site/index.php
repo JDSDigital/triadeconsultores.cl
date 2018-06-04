@@ -138,45 +138,13 @@ $this->title = 'Triade Consultores';
                     <div class="our-clients">
                         <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="5" data-navigation="false">
 
-                            <!-- Client 1 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c1.png') ?></a>
-                            </div>
-
-                            <!-- Client 2 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c2.png') ?></a>
-                            </div>
-
-                            <!-- Client 3 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c3.png') ?></a>
-                            </div>
-
-                            <!-- Client 4 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c4.png') ?></a>
-                            </div>
-
-                            <!-- Client 5 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c5.png') ?></a>
-                            </div>
-
-                            <!-- Client 6 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c6.png') ?></a>
-                            </div>
-
-                            <!-- Client 7 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c7.png') ?></a>
-                            </div>
-
-                            <!-- Client 8 -->
-                            <div class="client-item item">
-                              <a href="#"><?= Html::img(Yii::getAlias('@web') . '/images/c8.png') ?></a>
-                            </div>
+                            <?php foreach ($clients as $client) : ?>
+                              <div class="client-item item vertical-align">
+                                <div class="client-item-inner">
+                                  <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client['image'], ['class' => 'img-responsive']), ['']) ?>
+                                </div>
+                              </div>
+                            <?php endforeach; ?>
 
                         </div>
                     </div>

@@ -2,6 +2,11 @@ a {
     color: #001e66;
 }
 
+*::selection {
+  color: white;
+  background-color: #001e66;
+}
+
 .accent-color {
 	color: #001e66;
 }
@@ -149,7 +154,7 @@ ul.breadcrumbs li a:hover {
 }
 
 ul.icons-list li i {
-	color: #001e66;
+	color: #008337;
 }
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {

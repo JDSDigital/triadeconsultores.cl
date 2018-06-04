@@ -165,3 +165,34 @@ a.desc:after {
     top: 0;
     background: linear-gradient(to bottom, transparent 50%, transparent 50%, rgba(0,0,0,1) 100% );
 }
+h4.classic-title {
+  line-height: 16px;
+}
+.services-table {
+  width: 100%;
+}
+.services-table tr td:first-child {
+  text-align: left;
+}
+.services-table tr td:last-child {
+  text-align: right;
+}
+.client-item {
+  height: 200px;
+  /* border: 1px solid #bbb; */
+  text-align: center !important;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: #fff;
+}
+.clients-carousel .client-item {
+  /* height: 100px; */
+}
+.clients-carousel .client-item img {
+  /* height: auto; */
+  /* width: 100%; */
+}
+.client-item-inner {
+  margin: auto;
+}
