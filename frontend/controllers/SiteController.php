@@ -12,6 +12,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use common\models\Images;
 
 /**
  * Site controller
@@ -72,6 +73,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $images = Images::find()
+          ->where(['status' => Images::STATUS_ACTIVE])
+          ->orderBy(['rand()' => SORT_DESC])
+          ->limit(8)
+          ->all();
+
         $clients = [
             ['image' => 'geotec.png'],
             ['image' => 'palettas.png'],
@@ -85,6 +92,7 @@ class SiteController extends Controller
 
         return $this->render('index', [
           'clients' => $clients,
+          'images' => $images,
         ]);
     }
 

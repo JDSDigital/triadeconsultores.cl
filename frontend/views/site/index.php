@@ -120,6 +120,47 @@ $this->title = 'Triade Consultores';
         </div>
       </div>
 
+
+      <div class="container">
+          <div class="row mt50 mb10">
+              <div class="col-md-12 big-title text-center">
+                  <h2 class="">Nuestros Eventos Recientes</h2>
+              </div>
+          </div>
+
+          <div class="hr5 mt10 mb50"></div>
+      </div>
+      <!-- Start Recent Projects Carousel -->
+      <div class="full-width-recent-projects">
+          <div class="projects-carousel touch-carousel navigation-1">
+
+            <?php foreach ($images as $image) : ?>
+              <!-- Start Project Item -->
+              <div class="portfolio-item item">
+                  <div class="portfolio-border">
+                      <!-- Start Project Thumb -->
+                      <div class="portfolio-thumb">
+                          <a class="lightbox" title="<?= $image->category->name ?>" href="<?= Yii::getAlias('@web') . '/images/gallery/' . $image->category_id . '/' . $image->file ?>">
+                              <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                              <?= Html::img(Yii::getAlias('@web') . '/images/gallery/' . $image->category_id . '/' . $image->file, ['class' => 'img-responsive']) ?>
+                          </a>
+                      </div>
+                      <!-- End Project Thumb -->
+                      <!-- Start Project Details -->
+                      <div class="portfolio-details">
+                          <h4><?= $image->category->name ?></h4>
+                      </div>
+                      <!-- End Project Details -->
+                  </div>
+              </div>
+              <!-- End Project Item -->
+
+            <?php endforeach; ?>
+
+          </div>
+      </div>
+      <!-- End Recent Projects Carousel -->
+
       <div class="container">
 
           <div class="row mt50 mb10">

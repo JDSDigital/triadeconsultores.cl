@@ -214,3 +214,9 @@ h4.classic-title {
 .client-item-inner {
   margin: auto;
 }
+.service-icon i:before {
+  margin-top: 18px;
+}
+.tab-content {
+  border: none;
+}
