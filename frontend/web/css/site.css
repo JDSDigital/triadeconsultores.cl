@@ -186,6 +186,24 @@ h4.classic-title {
   padding: 5px 20px;
   background-color: #fff;
 }
+.client-list .client-item, .gallery-thumb {
+  transform: scale(0.9);
+  /* opacity: 0.5; */
+  -webkit-transition: all 0.2s ease !important;
+  -moz-transition: all 0.2s ease !important;
+  -o-transition: all 0.2s ease !important;
+  -ms-transition: all 0.2s ease !important;
+  transition: all 0.2s ease !important;
+}
+.client-list .client-item:hover, .gallery-thumb:hover {
+  transform: scale(1);
+  /* opacity: 1; */
+  -webkit-transition: all 0.2s ease !important;
+  -moz-transition: all 0.2s ease !important;
+  -o-transition: all 0.2s ease !important;
+  -ms-transition: all 0.2s ease !important;
+  transition: all 0.2s ease !important;
+}
 .clients-carousel .client-item {
   /* height: 100px; */
 }

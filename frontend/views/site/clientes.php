@@ -10,7 +10,7 @@ $this->params['title'][] = $this->title;
 $this->params['subtitle'][] = 'Algunos de nuestros clientes';
 ?>
 <div class="container pt50 pb50">
-  <div class="row">
+  <div class="row client-list">
     <?php foreach ($clients as $client) : ?>
       <div class="col-md-3 mt30 mb30">
         <div class="client-item vertical-align">
