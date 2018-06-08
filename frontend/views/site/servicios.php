@@ -12,7 +12,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 <div class="container mt50 mb50">
   <div class="row">
     <div class="col-md-4 service-box service-center">
-      <a href="#tab-1" data-toggle="tab">
+      <a id="button-tab-1" href="#tab-1">
         <div class="service-boxed">
             <div class="service-icon" style="margin-top:-25px;">
                 <i class="icon-users-2 icon-medium-effect icon-effect-2"></i>
@@ -26,7 +26,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
     </div>
 
     <div class="col-md-4 service-box service-center">
-      <a href="#tab-2" data-toggle="tab">
+      <a id="button-tab-2" href="#tab-2">
         <div class="service-boxed">
             <div class="service-icon" style="margin-top:-25px;">
                 <i class="icon-building icon-medium-effect icon-effect-2"></i>
@@ -40,7 +40,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
     </div>
 
     <div class="col-md-4 service-box service-center">
-      <a href="#tab-3" data-toggle="tab">
+      <a id="button-tab-3" href="#tab-3">
         <div class="service-boxed">
             <div class="service-icon" style="margin-top:-25px;">
                 <i class="icon-award-1 icon-medium-effect icon-effect-2"></i>
@@ -56,12 +56,11 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 
   <div class="tabs-section">
 
-      <!-- Tab panels -->
-      <div class="tab-content">
           <!-- Tab Content 1 -->
-          <div class="tab-pane fade active in" id="tab-1">
+          <div id="tab-1"></div>
+          <div class="tab-pane">
 
-              <div class="row mb10">
+              <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
                       <h2 class="">Reclutamiento y Selección</h2>
                   </div>
@@ -72,20 +71,22 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <div class="col-md-12">
                   <p>Nos especializamos efectuando las siguientes actividades:</p>
                   <ul class="icons-list">
-                    <li><i class="icon-check-2"></i> Contamos con diversas fuentes de reclutamiento, las que nos permiten acelerar las búsquedas de nuestros clientes y hacer más eficientes sus procesos.</li>
-                    <li><i class="icon-check-2"></i> Nuestras evaluaciones se focalizan en las competencias específicas para el cargo mediante las herramientas adecuadas.</li>
-                    <li><i class="icon-check-2"></i> Efectuamos procesos de reclutamiento y selección masivos y especializados.</li>
-                    <li><i class="icon-check-2"></i> Servicio de Head Hunting.</li>
-                    <li><i class="icon-check-2"></i> Evaluaciones psicolaborales a nivel nacional.</li>
+                    <li><p><i class="icon-check-2"></i> Contamos con diversas fuentes de reclutamiento, las que nos permiten acelerar las búsquedas de nuestros clientes y hacer más eficientes sus procesos.</p></li>
+                    <li><p><i class="icon-check-2"></i> Nuestras evaluaciones se focalizan en las competencias específicas para el cargo mediante las herramientas adecuadas.</p></li>
+                    <li><p><i class="icon-check-2"></i> Efectuamos procesos de reclutamiento y selección masivos y especializados.</p></li>
+                    <li><p><i class="icon-check-2"></i> Servicio de Head Hunting.</p></li>
+                    <li><p><i class="icon-check-2"></i> Evaluaciones psicolaborales a nivel nacional.</p></li>
                   </ul>
                 </div>
               </div>
 
           </div>
-          <!-- Tab Content 2 -->
-          <div class="tab-pane fade" id="tab-2">
 
-              <div class="row mb10">
+          <!-- Tab Content 2 -->
+          <div id="tab-2"></div>
+          <div class="tab-pane">
+
+              <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
                       <h2 class="">Desarrollo Organizacional</h2>
                   </div>
@@ -96,22 +97,24 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <div class="col-md-12">
                   <p>Nos especializamos efectuando las siguientes actividades:</p>
                   <ul class="icons-list">
-                    <li><i class="icon-check-2"></i> Levantamiento de perfiles de cargo.</li>
-                    <li><i class="icon-check-2"></i> Colaboración en evaluaciones de desempeño y potenciales.</li>
-                    <li><i class="icon-check-2"></i> Participación en planes de capacitación.</li>
-                    <li><i class="icon-check-2"></i> Entrenamiento del personal.</li>
-                    <li><i class="icon-check-2"></i> Evaluación del personal.</li>
-                    <li><i class="icon-check-2"></i> Evaluación de predisposición al riesgo.</li>
-                    <li><i class="icon-check-2"></i> Asesorías en RRHH.</li>
+                    <li><p><i class="icon-check-2"></i> Levantamiento de perfiles de cargo.</p></li>
+                    <li><p><i class="icon-check-2"></i> Colaboración en evaluaciones de desempeño y potenciales.</p></li>
+                    <li><p><i class="icon-check-2"></i> Participación en planes de capacitación.</p></li>
+                    <li><p><i class="icon-check-2"></i> Entrenamiento del personal.</p></li>
+                    <li><p><i class="icon-check-2"></i> Evaluación del personal.</p></li>
+                    <li><p><i class="icon-check-2"></i> Evaluación de predisposición al riesgo.</p></li>
+                    <li><p><i class="icon-check-2"></i> Asesorías en RRHH.</p></li>
                   </ul>
                 </div>
               </div>
 
           </div>
-          <!-- Tab Content 3 -->
-          <div class="tab-pane fade" id="tab-3">
 
-              <div class="row mb10">
+          <!-- Tab Content 3 -->
+          <div id="tab-3"></div>
+          <div class="tab-pane">
+
+              <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
                       <h2 class="">Capacitación y Entrenamiento</h2>
                   </div>
@@ -123,10 +126,10 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                   <p>Nos interesa poder satisfacer las necesidades de las organizaciones. Para ello contamos con una serie de cursos que podrían facilitar el desempeño de los trabajadores. Todas nuestras charlas y cursos se ajustan al contexto organizacional.</p>
                   <p>Nos especializamos efectuando las siguientes actividades:</p>
                   <ul class="icons-list">
-                    <li><i class="icon-check-2"></i> Levantamiento de necesidades de capacitación.</li>
-                    <li><i class="icon-check-2"></i> Elaboración de talleres, charlas y cursos de capacitación.</li>
-                    <li><i class="icon-check-2"></i> Seguimiento y evaluaciones continuas al aprendizaje adquirido.</li>
-                    <li><i class="icon-check-2"></i> Talleres franquiciados de acuerdo a las necesidades de nuestros clientes.</li>
+                    <li><p><i class="icon-check-2"></i> Levantamiento de necesidades de capacitación.</p></li>
+                    <li><p><i class="icon-check-2"></i> Elaboración de talleres, charlas y cursos de capacitación.</p></li>
+                    <li><p><i class="icon-check-2"></i> Seguimiento y evaluaciones continuas al aprendizaje adquirido.</p></li>
+                    <li><p><i class="icon-check-2"></i> Talleres franquiciados de acuerdo a las necesidades de nuestros clientes.</p></li>
                   </ul>
                 </div>
                 <div class="col-md-6">
@@ -242,9 +245,35 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
               </div>
 
           </div>
-      </div>
-      <!-- End Tab Panels -->
 
   </div>
 
 </div>
+
+<?php
+$js = <<<JS
+$(document).ready(function (){
+    $(".button-tab-1").on('click', function (e){
+      e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#tab-1').offset().top
+        }, 2000);
+    });
+
+    $(".button-tab-2").on('click', function (e){
+      e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#tab-2').offset().top
+        }, 2000);
+    });
+
+    $(".button-tab-3").on('click', function (e){
+      e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#tab-3').offset().top
+        }, 2000);
+    });
+});
+JS;
+$this->registerJs($js);
+ ?>

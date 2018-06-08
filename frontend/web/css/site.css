@@ -171,6 +171,10 @@ h4.classic-title {
 .services-table {
   width: 100%;
 }
+.services-table tr td {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
 .services-table tr td:first-child {
   text-align: left;
 }
@@ -186,18 +190,22 @@ h4.classic-title {
   padding: 5px 20px;
   background-color: #fff;
 }
+.client-list .client-item {
+  opacity: 0.6;
+}
 .client-list .client-item, .gallery-thumb {
   transform: scale(0.9);
-  /* opacity: 0.5; */
   -webkit-transition: all 0.2s ease !important;
   -moz-transition: all 0.2s ease !important;
   -o-transition: all 0.2s ease !important;
   -ms-transition: all 0.2s ease !important;
   transition: all 0.2s ease !important;
 }
+.client-list .client-item:hover {
+  opacity: 1;
+}
 .client-list .client-item:hover, .gallery-thumb:hover {
   transform: scale(1);
-  /* opacity: 1; */
   -webkit-transition: all 0.2s ease !important;
   -moz-transition: all 0.2s ease !important;
   -o-transition: all 0.2s ease !important;
@@ -219,4 +227,8 @@ h4.classic-title {
 }
 .tab-content {
   border: none;
+}
+.page-banner {
+  background: linear-gradient(to bottom, #00913d, #005b26) !important;
+  /* background-color: #daca37 !important; */
 }

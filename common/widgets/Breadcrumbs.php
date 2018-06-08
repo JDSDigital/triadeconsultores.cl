@@ -156,12 +156,12 @@ class Breadcrumbs extends Widget
         // $url = Url::to(Yii::getAlias('@web') . '/images/gallery/feria/01.jpg');
         $url = '';
 
-        echo '<div class="page-banner" style="padding:40px 0; background: url(' . $url . ') center #f9f9f9;">
+        echo '<div class="page-banner" style="padding:40px 0; background: url(' . $url . ') center;">
     			<div class="container">
     				<div class="row">
     					<div class="col-md-6">
-    						<h2>' . $this->title[0] . '</h2>
-    						<p class="m0">' . $this->subtitle[0] . '</p>
+    						<h2 class="accent-color-white">' . $this->title[0] . '</h2>
+    						<p class="accent-color-white m0">' . $this->subtitle[0] . '</p>
     					</div>
     					<div class="col-md-6">'
                 . Html::tag($this->tag, implode('', $links), $this->options) .

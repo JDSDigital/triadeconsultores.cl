@@ -125,8 +125,8 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
 						<div class="col-md-6">
               <!-- Start Contact Info -->
 							<ul class="contact-details">
-              	<li><a href="#"><i class="icon-mobile-2"></i> +12 345 678 000</a></li>
-                  <li><a href="#"><i class="icon-mail-2"></i> info@triadeconsultores.cl</a></li>
+              	<li><a href="#"><i class="icon-mobile-2"></i> +56 9 5218 7941</a></li>
+                  <li><a href="#"><i class="icon-mail-2"></i> consultas@triadeconsultores.cl</a></li>
               </ul>
               <!-- End Contact Info -->
 						</div>
