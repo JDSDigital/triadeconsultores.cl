@@ -134,34 +134,19 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
               <!-- Start Social Links -->
 							<ul class="social-list">
 								<li>
-									<a class="facebook sh-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="icon-facebook-2"></i></a>
+									<a class="facebook sh-tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/triadeconsultores/"><i class="icon-facebook-2"></i></a>
 								</li>
 								<li>
-									<a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="icon-twitter-2"></i></a>
+									<a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" target="_blank" href="#"><i class="icon-twitter-2"></i></a>
+								</li>
+                <li>
+									<a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" target="_blank" href="https://www.linkedin.com/company/triade-consultores/"><i class="icon-linkedin"></i></a>
+								</li>
+                <li>
+									<a class="instgram sh-tooltip" data-placement="bottom" title="Instagram" target="_blank" href="#"><i class="icon-instagramm"></i></a>
 								</li>
 								<li>
-									<a class="google sh-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="icon-gplus"></i></a>
-								</li>
-								<li>
-									<a class="dribbble sh-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="icon-dribbble-2"></i></a>
-								</li>
-                <li>
-									<a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="icon-linkedin"></i></a>
-								</li>
-                <li>
-									<a class="flickr sh-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="icon-flickr-1"></i></a>
-								</li>
-                <li>
-									<a class="tumblr sh-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="icon-tumblr"></i></a>
-								</li>
-                <li>
-									<a class="instgram sh-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="icon-instagramm"></i></a>
-								</li>
-                <li>
-									<a class="vimeo sh-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="icon-vimeo-1"></i></a>
-								</li>
-								<li>
-									<a class="skype sh-tooltip" data-placement="bottom" title="Skype" href="#"><i class="icon-skype-2"></i></a>
+									<a class="skype sh-tooltip" data-placement="bottom" title="Skype" target="_blank" href="#"><i class="icon-skype-2"></i></a>
 								</li>
 							</ul>
               <!-- End Social Links -->
