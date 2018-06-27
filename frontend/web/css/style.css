@@ -2544,7 +2544,7 @@ ul.icons-list li i {
 }
 
 .testimonials:after {
-	font-family: "Raleway";
+	font-family: "fontello";
 	content: '\eb5f';
 	font-size: 6em;
 	line-height: 70px;

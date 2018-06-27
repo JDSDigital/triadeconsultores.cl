@@ -222,8 +222,11 @@ h4.classic-title {
 .client-item-inner {
   margin: auto;
 }
-.service-icon i:before {
+.service-boxed .service-icon i:before {
   margin-top: 18px;
+}
+.service-box-values .service-box:last-child {
+  margin-bottom: 0;
 }
 .tab-content {
   border: none;

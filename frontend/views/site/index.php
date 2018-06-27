@@ -80,25 +80,93 @@ $this->title = 'Triade Consultores';
 
           <div class="hr5 mt10 mb50"></div>
 
-          <div class="row vertical-align">
+          <div class="row vertical-align mb50">
             <div class="col-md-4">
-              <?= Html::img(Yii::getAlias('@web') . '/images/bg/06.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
+              <?= Html::img(Yii::getAlias('@web') . '/images/bg/03.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
             </div>
             <div class="col-md-8 text-justify">
-              <p>Somos un equipo de profesionales de las Cs. Humanas, expertos en la búsqueda de personal ajustado a las necesidades de cada uno de nuestros clientes.</p>
-              <p>Además de contar con una red de profesionales a nivel nacional que apoyan nuestra gestión, en el ámbito de la evaluación y en el entrenamiento de las habilidades requeridas para que el personal se desempeñe efectivamente en todas sus funciones.</p>
+              <p>Somos un equipo altamente especializados, expertos en servicios de Asesoría en el ámbito del Recurso Humano, Educación, Cultura, Salud, Ciencias Sociales y en las Áreas Legales. Nuestro foco es la realización de un trabajo óptimo, ciñéndonos a los parámetros de nuestros clientes, sin perder nuestro rol como asesores, nos interesa establecer vínculos de confianza,  que puedan apoyar de manera integral el quehacer organizacional.</p>
+              <p>Contamos con un equipo multidisciplinario con un ámbito de acción diverso: Ingenieros, Psicólogos, Educadores, Prevencionistas, Trabajadores Sociales entre otros, no solo en la zona centro de nuestro país, sino también a nivel nacional, que apoyan nuestros proyectos en el ámbito Privado y Público.</p>
             </div>
           </div>
 
-          <div class="row vertical-align mt30 mb50">
-            <div class="col-md-8 text-justify">
-              <p>Como consultores, consideramos relevante la entrega de servicios personalizados y adecuados al contexto, focalizados en la calidad.</p>
-              <p>Finalmente, el trato que tenemos con cada uno de nuestros clientes es directo, nos interesa la retroalimentación constante, de tal manera que cada proceso que se lleve a cabo sea efectivo y contextualizado al tipo de organización.</p>
+      </div>
+
+      <!-- Start Full Width Section 6 -->
+    	<div class="section bg-parallax light-section" style="padding-top:80px; padding-bottom:80px; border-top:0; border-bottom:0; background: url(http://placehold.it/1280x400/333/444);">
+      	<div class="container">
+
+          	<!-- Start Testimonials Carousel -->
+              <div class="testimonials-carousel-not">
+                  <!-- Testimonial 1 -->
+                  <div class="testimonials item">
+                  	<div class="testimonial-content">
+                    	<p>Creemos fielmente en las capacidades técnicas y por sobre todo en las distintas habilidades que pueda traer  y desarrollar una persona.</p>
+                    </div>
+                  </div>
+              </div>
+              <!-- End Testimonials Carousel -->
+
+          </div>
+      </div>
+      <!-- End Full Width Section 5 -->
+
+      <div class="container">
+          <div class="row mt50 mb10">
+              <div class="col-md-12 big-title text-center">
+                  <h2 class="">Nuestros Valores</h2>
+              </div>
+          </div>
+
+          <div class="hr5 mt10 mb50"></div>
+
+          <div class="row vertical-align mb50">
+            <div class="col-md-7 service-box-values">
+              <div class="col-md-12 service-box service-icon-left-more">
+                  <div class="service-icon">
+                      <i class="icon-star-4 icon-medium"></i>
+                  </div>
+                  <div class="service-content">
+                      <p>Ética en nuestro quehacer diario.</p>
+                  </div>
+              </div>
+              <div class="col-md-12 service-box service-icon-left-more">
+                  <div class="service-icon">
+                      <i class="icon-star-4 icon-medium"></i>
+                  </div>
+                  <div class="service-content">
+                      <p>Compromiso ante todo.</p>
+                  </div>
+              </div>
+            <div class="col-md-12 service-box service-icon-left-more">
+                <div class="service-icon">
+                    <i class="icon-star-4 icon-medium"></i>
+                </div>
+                <div class="service-content">
+                    <p>Entendemos a cada uno de nuestros clientes.</p>
+                </div>
             </div>
-            <div class="col-md-4">
-              <?= Html::img(Yii::getAlias('@web') . '/images/bg/03.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
+            <div class="col-md-12 service-box service-icon-left-more">
+                <div class="service-icon">
+                    <i class="icon-star-4 icon-medium"></i>
+                </div>
+                <div class="service-content">
+                    <p>Retroalimentación constante en los procesos mediante diferentes herramientas que fortalecen la calidad del trabajo.</p>
+                </div>
+            </div>
+            <div class="col-md-12 service-box service-icon-left-more">
+                <div class="service-icon">
+                    <i class="icon-star-4 icon-medium"></i>
+                </div>
+                <div class="service-content">
+                    <p>Innovación y creatividad a la hora de mostrar alternativas de acción a los clientes, diseñando programas teóricos y prácticos ajustados a la realidad mediante el trabajo en conjunto con la organización</p>
+                </div>
             </div>
           </div>
+          <div class="col-md-5">
+            <?= Html::img(Yii::getAlias('@web') . '/images/bg/06.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
+          </div>
+        </div>
       </div>
 
       <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/07.jpg" ?>'); background-size: cover; background-position: center;">
@@ -113,13 +181,12 @@ $this->title = 'Triade Consultores';
             <!-- Divider -->
             <div class="hr5-white mt10 mb50"></div>
 
-            <p class="wite-text">Asesorar a nuestros clientes en materia de RrHh, mediante la búsqueda eficiente y efectiva, que favorezca la implementación de planes de capacitación y el desarrollo de habilidades indispensables para la organización.</p>
+            <p class="wite-text">Asesorar a nuestros clientes en las materias respectivas de acuerdo al foco de interés que posean, con la finalidad de entregar productos contextualizados a su realidad, además de ser efectivos a la hora de su aplicación y puesta en marcha.</p>
 
-            <p class="wite-text">Potenciar lazos de confianza con cada uno de nuestros clientes, asesorándolos en las diversas temáticas organizacionales, lo que nos convierte en una empresa con una clara orientación al capital humano.</p>
+            <p class="wite-text">Como Organización nos interesa promover la importancia de la atención al cliente, como elemento fundamental, manteniendo una asesoría efectiva, de manera que podamos convertirnos en socios estratégicos de nuestro cliente para así poder apoyar y/o intervenir de manera profesional en cada disciplina que se necesite fortalecer.</p>
           </div>
         </div>
       </div>
-
 
       <div class="container">
           <div class="row mt50 mb10">

@@ -18,7 +18,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-users-2 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Reclutamiento y Selección</h4>
+                <h4>Asesoría en RRHH</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
             </div>
         </div>
@@ -32,7 +32,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-building icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Desarrollo Organizacional</h4>
+                <h4>Administración de Nómina</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
             </div>
         </div>
@@ -46,7 +46,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-award-1 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Capacitación y Entrenamiento</h4>
+                <h4>Gestión de Proyectos</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
             </div>
         </div>
@@ -62,20 +62,19 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 
               <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
-                      <h2 class="">Reclutamiento y Selección</h2>
+                      <h2 class="">Asesoría en RRHH</h2>
                   </div>
               </div>
               <div class="hr5 mt10 mb50"></div>
 
               <div class="row">
                 <div class="col-md-12">
-                  <p>Nos especializamos efectuando las siguientes actividades:</p>
-                  <ul class="icons-list">
-                    <li><p><i class="icon-check-2"></i> Contamos con diversas fuentes de reclutamiento, las que nos permiten acelerar las búsquedas de nuestros clientes y hacer más eficientes sus procesos.</p></li>
-                    <li><p><i class="icon-check-2"></i> Nuestras evaluaciones se focalizan en las competencias específicas para el cargo mediante las herramientas adecuadas.</p></li>
-                    <li><p><i class="icon-check-2"></i> Efectuamos procesos de reclutamiento y selección masivos y especializados.</p></li>
-                    <li><p><i class="icon-check-2"></i> Servicio de Head Hunting.</p></li>
-                    <li><p><i class="icon-check-2"></i> Evaluaciones psicolaborales a nivel nacional.</p></li>
+                  <ul class="icons-list text-justify">
+                    <li><p><i class="icon-check-2"></i> <strong>Reclutamiento, Selección y Desarrollo Organizacional:</strong> Poseemos diversas fuentes de reclutamiento que aceleran las búsquedas de nuestros clientes, realizando evaluaciones ajustadas a las competencias del cargo. Además de ofrecer nuestros servicios a la hora de encontrar talentos específicos para cada ámbito de acción (<strong>Head Hunting</strong>), con profesionales que nos apoyan no tan solo en la zona centro sino a nivel nacional. Nos interesa entregar soporte a las organizaciones en diversas temáticas: Levantamiento perfiles de cargo, Evaluaciones de desempeño, Encuestas de clima organizacional, Calidad de vida, Coaching, Evaluaciones de predisposición al riesgo, Asesorar en relación a ISTAS 21, entre otros servicios.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Capacitación y Entrenamiento:</strong> Diseñamos e implementamos una serie de <strong>cursos, talleres y charlas</strong> cuyo foco central se vincula a potenciar y desarrollar los diversos talentos que cada integrante posee dentro de una empresa. Elemento que beneficiará su desempeño y el clima laboral al interior de su trabajo.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesoría Laboral y Estudios de Compensaciones:</strong> Prestar el apoyo en temáticas legales, planificación tributaria de corto y largo plazo, confección de informes de gestión, entrega de KPI, y prestar apoyo en los sistemas de compensaciones y estudios de estructuras ligados a esta materia.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Prevención de Riesgos / Riesgos Psicosociales:</strong> Prestar asesorías en temáticas de seguridad, evaluaciones de aversión al riesgo y apoyar la implementación y planes de mitigación de acuerdo a resultados de la aplicación ISTAS 21.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Calidad de Vida y Eventos Corporativos:</strong> Mediante profesionales expertos en estas temáticas prestar el soporte a nuestros clientes en acciones relacionadas con la calidad de vida en el trabajo, temáticas sociales y psicológicas que pudiesen afectar el entorno laboral y personal. A su vez, contar con una red que apoye los eventos que necesiten externalizar.</p></li>
                   </ul>
                 </div>
               </div>
@@ -88,22 +87,16 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 
               <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
-                      <h2 class="">Desarrollo Organizacional</h2>
+                      <h2 class="">Administración de Nómina</h2>
                   </div>
               </div>
               <div class="hr5 mt10 mb50"></div>
 
               <div class="row">
                 <div class="col-md-12">
-                  <p>Nos especializamos efectuando las siguientes actividades:</p>
                   <ul class="icons-list">
-                    <li><p><i class="icon-check-2"></i> Levantamiento de perfiles de cargo.</p></li>
-                    <li><p><i class="icon-check-2"></i> Colaboración en evaluaciones de desempeño y potenciales.</p></li>
-                    <li><p><i class="icon-check-2"></i> Participación en planes de capacitación.</p></li>
-                    <li><p><i class="icon-check-2"></i> Entrenamiento del personal.</p></li>
-                    <li><p><i class="icon-check-2"></i> Evaluación del personal.</p></li>
-                    <li><p><i class="icon-check-2"></i> Evaluación de predisposición al riesgo.</p></li>
-                    <li><p><i class="icon-check-2"></i> Asesorías en RRHH.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Pago de Remuneraciones:</strong> La consultora puede administrar el proceso de remuneraciones, de manera In-House o de manera externa.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Intervención y Mejoramiento de Procesos:</strong> Efectuar levantamientos de procesos dentro de la organización de acuerdo a las necesidades.</p></li>
                   </ul>
                 </div>
               </div>
@@ -116,131 +109,20 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 
               <div class="row mt30 mb10">
                   <div class="col-md-12 big-title text-center">
-                      <h2 class="">Capacitación y Entrenamiento</h2>
+                      <h2 class="">Gestión de Proyectos</h2>
                   </div>
               </div>
               <div class="hr5 mt10 mb50"></div>
 
               <div class="row">
                 <div class="col-md-12 mb30">
-                  <p>Nos interesa poder satisfacer las necesidades de las organizaciones. Para ello contamos con una serie de cursos que podrían facilitar el desempeño de los trabajadores. Todas nuestras charlas y cursos se ajustan al contexto organizacional.</p>
-                  <p>Nos especializamos efectuando las siguientes actividades:</p>
                   <ul class="icons-list">
-                    <li><p><i class="icon-check-2"></i> Levantamiento de necesidades de capacitación.</p></li>
-                    <li><p><i class="icon-check-2"></i> Elaboración de talleres, charlas y cursos de capacitación.</p></li>
-                    <li><p><i class="icon-check-2"></i> Seguimiento y evaluaciones continuas al aprendizaje adquirido.</p></li>
-                    <li><p><i class="icon-check-2"></i> Talleres franquiciados de acuerdo a las necesidades de nuestros clientes.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Educativas:</strong></p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Culturales:</strong></p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías en Salud:</strong></p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Sociales:</strong></p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Legales:</strong></p></li>
                   </ul>
-                </div>
-                <div class="col-md-6">
-                  <h4 class="classic-title"><span>Talleres</span></h4>
-                  <table class="services-table">
-                    <tr>
-                      <td></td>
-                      <td>Horas</td>
-                    </tr>
-                    <tr>
-                      <td>Liderazgo en el Trabajo</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Comunicación Efectiva</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>Trabajo en Equipo</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>Estrategias de Negociación</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Estrés Laboral</td>
-                      <td>6</td>
-                    </tr>
-                    <tr>
-                      <td>Manejo de Situaciones Complejas</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Autocuidado</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Motivación para el Buen Desempeño</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Creatividad e Innovación</td>
-                      <td>6</td>
-                    </tr>
-                    <tr>
-                      <td>Servicio al Cliente</td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Organización del Tiempo de Trabajo</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>Mejora Continua</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>Dirección de Reuniones</td>
-                      <td>5</td>
-                    </tr>
-                    <tr>
-                      <td>El Coaching y sus Estrategias</td>
-                      <td>6</td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="col-md-6">
-                  <h4 class="classic-title"><span>Charlas</span></h4>
-                  <table class="services-table">
-                    <tr>
-                      <td></td>
-                      <td>Horas</td>
-                    </tr>
-                    <tr>
-                      <td>Actitud Positiva</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>La Efectividad</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>La Importancia de la Comunicación</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>Alcohol y Drogas</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>Motivar al Personal</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>La Fidelización</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>Calidad de Vida y Trabajo</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                      <td>La Resiliencia</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>Orientación sobre Redes de Apoyo para Colaboradores</td>
-                      <td>2</td>
-                    </tr>
-                  </table>
                 </div>
               </div>
 
