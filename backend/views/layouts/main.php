@@ -29,7 +29,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        // 'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'innerContainerOptions' => ['class' => ''],
         'options' => [
@@ -92,11 +92,11 @@ AppAsset::register($this);
                                     <li class="<?= (Yii::$app->controller->id == 'site' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
                                         <?= Html::a('<i class="icon-home4"></i> <span>Dashboard</span>', ['//site/index']) ?>
                                     </li>
-                                    <li class="<?= (Yii::$app->controller->id == 'categories' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
-                                        <?= Html::a('Categorías', ['//categories/index']) ?>
+                                    <li class="<?= (Yii::$app->controller->id == 'categorias' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
+                                        <?= Html::a('Categorías', ['//categoria/index']) ?>
                                     </li>
-                                    <li class="<?= (Yii::$app->controller->id == 'products' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
-                                        <?= Html::a('Productos', ['//products/index']) ?>
+                                    <li class="<?= (Yii::$app->controller->id == 'logos' && Yii::$app->controller->action->id == 'index') ? 'active' : '' ?>">
+                                        <?= Html::a('Logos', ['//logos/index']) ?>
                                     </li>
                                     <!-- /Main -->
                                 </ul>
