@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use common\models\ClientsCategories;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
@@ -236,19 +237,12 @@ class SiteController extends Controller
 
     public function actionClientes ()
     {
-        $clients = [
-            ['image' => 'geotec.png'],
-            ['image' => 'palettas.png'],
-            ['image' => 'burgo.png'],
-            ['image' => 'insitucore.jpg'],
-            ['image' => 'cerronegro.jpg'],
-            ['image' => 'target.png'],
-            ['image' => 'udc.png'],
-            ['image' => 'otecmine.png'],
-        ];
+        $categories = ClientsCategories::find()
+          ->where(['status' => ClientsCategories::STATUS_ACTIVE])
+          ->all();
 
         return $this->render('clientes', [
-            'clients' => $clients,
+            'categories' => $categories,
         ]);
     }
 

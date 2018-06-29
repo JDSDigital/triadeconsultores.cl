@@ -90,7 +90,9 @@ class ClientsLogos extends \yii\db\ActiveRecord
         if ($this->validate()) {
             $url = Yii::getAlias('@frontend') . '/web/images/clients/';
 
-            $name = $this->name . '.' . $this->imageFile->extension;
+            $name = str_replace(' ', '-', $this->name);
+            $name = strtolower($name);
+            $name = $name . '.' . $this->imageFile->extension;
 
             $this->imageFile->saveAs($url . $name);
             $this->file = $name;

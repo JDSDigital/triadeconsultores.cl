@@ -26,7 +26,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'category_id',
+            [
+              'format'    => 'raw',
+              'attribute' => 'category_id',
+              'value'     => function ($model) {
+                return $model->category->name;
+              },
+            ],
             'name',
             'url:url',
             'file',
