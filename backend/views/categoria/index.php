@@ -1,6 +1,8 @@
 <?php
 
+use common\models\ClientsCategories;
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
@@ -36,12 +38,36 @@ $this->params['breadcrumbs'][] = $this->title;
             // ['class' => 'yii\grid\SerialColumn'],
 
             // 'id',
+            [
+              'attribute' => 'status',
+              'format'    => 'raw',
+              'value'     => function ($model) {
+                $check = ($model->status == ClientsCategories::STATUS_ACTIVE) ? "checked='checked'" : null;
+                return "<div class='switchery-xs m0'>
+                  <input id='status-$model->id' type='checkbox' class='switchery switchStatus' $check>
+                </div>";
+              },
+              'contentOptions' => ['style' => 'width: 30px;min-width: 30px'],
+            ],
             'name',
-            'status',
-            'created_at',
-            'updated_at',
+            [
+  						'format'    => 'raw',
+  						'attribute' => 'created_at',
+              'value' => function ($model) {
+                return Yii::$app->formatter->asDate($model->created_at, 'dd/MM/YYYY');
+              }
+  					],
+            [
+  						'format'    => 'raw',
+  						'attribute' => 'updated_at',
+              'value' => function ($model) {
+                return Yii::$app->formatter->asDate($model->updated_at, 'dd/MM/YYYY');
+              }
+  					],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 </div>
+
+<?php $this->registerJs('listenerChangeStatus("'.Url::to(["//categoria/status"]).'");'); ?>

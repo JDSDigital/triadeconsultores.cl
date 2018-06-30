@@ -120,3 +120,6 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+.logo-thumb {
+  max-width: 100px !important;
+}

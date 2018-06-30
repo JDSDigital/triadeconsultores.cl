@@ -6,6 +6,9 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\ClientsLogos */
 
+$url = Yii::getAlias('@web') . '/images/clients/';
+$url = str_replace('backend', 'frontend', $url);
+
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Logos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -21,7 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
+        <div class="row">
+          <div class="col-md-6">
+            <?= Html::img($url . $model->file, ['class' => 'img-responsive mt20']) ?>
+          </div>
+        </div>
     </header>
+
 
     <?= DetailView::widget([
         'model' => $model,
@@ -47,14 +56,14 @@ $this->params['breadcrumbs'][] = $this->title;
   						'format'    => 'raw',
   						'attribute' => 'created_at',
   						'value'     => function ($model) {
-  							return Yii::$app->formatter->asDate($model->created_at, 'dd/mm/YYYY');
+  							return Yii::$app->formatter->asDate($model->created_at, 'dd/MM/YYYY');
   						},
   					],
             [
   						'format'    => 'raw',
   						'attribute' => 'updated_at',
   						'value'     => function ($model) {
-  							return Yii::$app->formatter->asDate($model->updated_at, 'dd/mm/YYYY');
+  							return Yii::$app->formatter->asDate($model->updated_at, 'dd/MM/YYYY');
   						},
   					],
         ],

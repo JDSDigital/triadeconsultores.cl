@@ -26,7 +26,7 @@ class LogosController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'delete' => ['POST'],
+                    // 'delete' => ['POST'],
                 ],
             ],
         ];
@@ -119,7 +119,7 @@ class LogosController extends Controller
           if ($model->imageFile && $model->upload()) {
               $model->imageFile = null;
           }
-          
+
           if ($model->save())
             return $this->redirect(['view', 'id' => $model->id]);
           else {
@@ -149,13 +149,22 @@ class LogosController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
+
+        $url = Yii::getAlias('@frontend') . '/web/images/clients/';
+        // $url = str_replace('backend', 'frontend', $url);
+
+        if (unlink($url . $model->file) && $model->delete()) {
+          return $this->redirect(['index']);
+        } else {
+          Yii::$app->session->setFlash('error', 'Error eliminando el logo.');
+        }
 
         return $this->redirect(['index']);
     }
 
     /**
-     * Changes LogosStatus.
+     * Changes Status.
      *
      * @return string
      */

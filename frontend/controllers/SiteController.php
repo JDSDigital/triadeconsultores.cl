@@ -9,6 +9,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
 use common\models\ClientsCategories;
+use common\models\ClientsLogos;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
@@ -80,16 +81,11 @@ class SiteController extends Controller
           ->limit(8)
           ->all();
 
-        $clients = [
-            ['image' => 'geotec.png'],
-            ['image' => 'palettas.png'],
-            ['image' => 'burgo.png'],
-            ['image' => 'insitucore.jpg'],
-            ['image' => 'cerronegro.jpg'],
-            ['image' => 'target.png'],
-            ['image' => 'udc.png'],
-            ['image' => 'otecmine.png'],
-        ];
+        $clients = ClientsLogos::find()
+          ->where(['status' => ClientsLogos::STATUS_ACTIVE])
+          ->orderBy(['rand()' => SORT_DESC])
+          ->limit(6)
+          ->all();
 
         return $this->render('index', [
           'clients' => $clients,

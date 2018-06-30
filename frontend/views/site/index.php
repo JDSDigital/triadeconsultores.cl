@@ -249,7 +249,7 @@ $this->title = 'Triade Consultores';
                             <?php foreach ($clients as $client) : ?>
                               <div class="client-item item vertical-align">
                                 <div class="client-item-inner">
-                                  <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client['image'], ['class' => 'img-responsive']), ['']) ?>
+                                  <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client->file, ['class' => 'img-responsive']), ['']) ?>
                                 </div>
                               </div>
                             <?php endforeach; ?>
