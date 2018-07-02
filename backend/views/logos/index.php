@@ -9,7 +9,7 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\search\ClientsLogosSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$url = Yii::getAlias('@web') . '/images/clients/';
+$url = Yii::getAlias('@web') . '/../images/clients/';
 $url = str_replace('backend', 'frontend', $url);
 
 $this->title = 'Logos';

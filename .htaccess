@@ -1,9 +1,32 @@
-RewriteEngine on
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{REQUEST_URI} !^admin
+  RewriteRule ^admin(/.+)?$ backend/web/$1 [L]
+
+  RewriteCond %{REQUEST_URI} !^public
+  RewriteRule ^(.*)$ frontend/web/$1 [L]
+</IfModule>
+
+# Deny accessing below extensions
+<Files ~ "(.json|.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
+
+
+# OLD WAY
+# RewriteEngine on
 # For Backend
 
 # For Development
-RewriteCond %{REQUEST_URI} ^/triadeconsultores.cl/admin
-RewriteRule ^admin(/.+)?$ /triadeconsultores.cl/backend/web/$1 [L,PT]
+# RewriteCond %{REQUEST_URI} ^/triadeconsultores.cl/admin
+# RewriteRule ^admin(/.+)?$ /triadeconsultores.cl/backend/web/$1 [L,PT]
 
 # For Production
 # RewriteCond %{REQUEST_FILENAME} !-f
@@ -17,7 +40,7 @@ RewriteRule ^admin(/.+)?$ /triadeconsultores.cl/backend/web/$1 [L,PT]
 # For Frontend
 
 # For Development
-RewriteRule ^(.*)$ /triadeconsultores.cl/frontend/web/$1
+# RewriteRule ^(.*)$ /triadeconsultores.cl/frontend/web/$1
 
 # For Production
 # RewriteCond %{REQUEST_URI} !index.php

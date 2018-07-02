@@ -11,7 +11,7 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    
+
     public $css = [
         'css/site.css',
         'css/master.css',
@@ -46,5 +46,6 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'app\assets\SweetAlertAsset',
     ];
 }

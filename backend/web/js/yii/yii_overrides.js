@@ -1,15 +1,18 @@
 yii.confirm = function (message, okCallback, cancelCallback) {
 	swal({
-		title             : 'Eliminar',
-		text              : message,
-		type              : 'warning',
-		showCancelButton  : true,
-		confirmButtonColor: '#3085d6',
-		cancelButtonColor : '#d33',
-		//confirmButtonText : 'Yes, delete it!',
-		//cancelButtonText  : 'No, cancel!',
-		confirmButtonClass: 'btn btn-success',
-		cancelButtonClass : 'btn btn-danger',
-		buttonsStyling    : false
-	}).then(okCallback, cancelCallback);
+	  title: '¿Desea eliminar este elemento?',
+	  text: "Esta acción es irreversible.",
+	  type: 'warning',
+	  showCancelButton: true,
+	  confirmButtonColor: '#3085d6',
+	  cancelButtonColor: '#d33',
+	  confirmButtonText: '¡Si, elimínalo!',
+	  cancelButtonText: 'Cancelar'
+	}).then((result) => {
+	  if (result.value) {
+	    okCallback();
+	  } else {
+			cancelCallback();
+		}
+	})
 };

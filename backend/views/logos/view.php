@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\ClientsLogos */
 
-$url = Yii::getAlias('@web') . '/images/clients/';
+$url = Yii::getAlias('@web') . '/../images/clients/';
 $url = str_replace('backend', 'frontend', $url);
 
 $this->title = $model->name;
