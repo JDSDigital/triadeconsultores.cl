@@ -12,7 +12,8 @@ use yii\web\View;
 $this->title = 'Contacto';
 $this->params['breadcrumbs'][] = $this->title;
 $this->params['title'][] = $this->title;
-$this->params['subtitle'][] = 'Estamos ansiosos por conocerte';
+// $this->params['subtitle'][] = 'Estamos ansiosos por conocerte';
+$this->params['subtitle'][] = '';
 ?>
 <div class="container pt50 pb50">
 
@@ -53,7 +54,8 @@ $this->params['subtitle'][] = 'Estamos ansiosos por conocerte';
             <?php ActiveForm::end(); ?>
         </div>
         <div class="col-lg-6 contact-map">
-            <iframe src="https://maps.google.com/?ie=UTF8&amp;q=-33.442636,-70.640467&amp;spn=0.031112,0.038581&amp;t=m&amp;z=15&amp;output=embed"></iframe>
+            <iframe src="https://maps.google.com/?ie=UTF8&amp;q=-33.4455056,-70.6235103&amp;output=embed"></iframe>
+            <p>Santa Isabel #0739, Providencia, Santiago</p>
         </div>
     </div>
 </div>

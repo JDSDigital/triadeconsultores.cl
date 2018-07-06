@@ -7,7 +7,8 @@ use yii\helpers\Html;
 $this->title = 'Galería';
 $this->params['breadcrumbs'][] = $this->title;
 $this->params['title'][] = $this->title;
-$this->params['subtitle'][] = 'Fotos de nuestros últimos eventos';
+// $this->params['subtitle'][] = 'Fotos de nuestros últimos eventos';
+$this->params['subtitle'][] = '';
 ?>
 <div class="container site-gallery">
   <div class="row mt50 mb10">

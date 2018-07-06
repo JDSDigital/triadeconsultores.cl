@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 $this->title = 'Triade Consultores';
 ?>
@@ -28,7 +29,7 @@ $this->title = 'Triade Consultores';
 
                           data-speed="300"
                           data-start="1600"
-                          data-easing="easeOutExpo">Asistencia
+                          data-easing="easeOutExpo">Asesoría
                       </div>
 
                       <!-- LAYER NR. 2 -->
@@ -93,7 +94,7 @@ $this->title = 'Triade Consultores';
       </div>
 
       <!-- Start Full Width Section 6 -->
-    	<div class="section bg-parallax light-section" style="padding-top:80px; padding-bottom:80px; border-top:0; border-bottom:0; background: url(http://placehold.it/1280x400/333/444);">
+    	<div class="section bg-parallax light-section" style="padding-top:80px; padding-bottom:80px; border-top:0; border-bottom:0; background: url(<?= Url::to(['/images/gallery/6/04.jpg']) ?>);">
       	<div class="container">
 
           	<!-- Start Testimonials Carousel -->
@@ -124,7 +125,7 @@ $this->title = 'Triade Consultores';
             <div class="col-md-7 service-box-values">
               <div class="col-md-12 service-box service-icon-left-more">
                   <div class="service-icon">
-                      <i class="icon-star-4 icon-medium"></i>
+                      <i class="icon-star-4 icon-small"></i>
                   </div>
                   <div class="service-content">
                       <p>Ética en nuestro quehacer diario.</p>
@@ -132,7 +133,7 @@ $this->title = 'Triade Consultores';
               </div>
               <div class="col-md-12 service-box service-icon-left-more">
                   <div class="service-icon">
-                      <i class="icon-star-4 icon-medium"></i>
+                      <i class="icon-star-4 icon-small"></i>
                   </div>
                   <div class="service-content">
                       <p>Compromiso ante todo.</p>
@@ -140,7 +141,7 @@ $this->title = 'Triade Consultores';
               </div>
             <div class="col-md-12 service-box service-icon-left-more">
                 <div class="service-icon">
-                    <i class="icon-star-4 icon-medium"></i>
+                    <i class="icon-star-4 icon-small"></i>
                 </div>
                 <div class="service-content">
                     <p>Entendemos a cada uno de nuestros clientes.</p>
@@ -148,7 +149,7 @@ $this->title = 'Triade Consultores';
             </div>
             <div class="col-md-12 service-box service-icon-left-more">
                 <div class="service-icon">
-                    <i class="icon-star-4 icon-medium"></i>
+                    <i class="icon-star-4 icon-small"></i>
                 </div>
                 <div class="service-content">
                     <p>Retroalimentación constante en los procesos mediante diferentes herramientas que fortalecen la calidad del trabajo.</p>
@@ -156,7 +157,7 @@ $this->title = 'Triade Consultores';
             </div>
             <div class="col-md-12 service-box service-icon-left-more">
                 <div class="service-icon">
-                    <i class="icon-star-4 icon-medium"></i>
+                    <i class="icon-star-4 icon-small"></i>
                 </div>
                 <div class="service-content">
                     <p>Innovación y creatividad a la hora de mostrar alternativas de acción a los clientes, diseñando programas teóricos y prácticos ajustados a la realidad mediante el trabajo en conjunto con la organización</p>

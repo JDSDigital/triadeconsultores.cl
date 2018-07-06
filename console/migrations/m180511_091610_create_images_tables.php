@@ -47,12 +47,12 @@ class m180511_091610_create_images_tables extends Migration
         $this->addForeignKey('fk_xgallery_images-xgallery_categories', 'xgallery_images', 'category_id', 'xgallery_categories', 'id', 'CASCADE', 'CASCADE');
 
         $this->batchInsert('{{%xgallery_categories}}', ['name', 'status', 'created_at', 'updated_at'], [
-            ['Ancud', 1, 0, 0],
-            ['Curacaví', 1, 0, 0],
-            ['San Felipe', 1, 0, 0],
-            ['Puerto Montt', 1, 0, 0],
-            ['Universidad de Chile', 1, 0, 0],
-            ['Feria Laboral', 1, 0, 0],
+            ['Relaciones Interpersonales –<br>Ancud', 1, 0, 0],
+            ['Habilidades Parentales –<br>Curacaví', 1, 0, 0],
+            ['Trabajo en Equipo –<br>Puerto Montt', 1, 0, 0],
+            ['Plan Superación Profesional –<br>San Felipe', 1, 0, 0],
+            ['Liderazgo y Comunicación –<br>RAV, Universidad de Chile', 1, 0, 0],
+            ['Ferias Laborales', 1, 0, 0],
             ['Reclutamiento y Selección', 1, 0, 0],
         ]);
 

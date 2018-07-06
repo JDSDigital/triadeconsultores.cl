@@ -7,7 +7,8 @@ use yii\helpers\Html;
 $this->title = 'Servicios';
 $this->params['breadcrumbs'][] = $this->title;
 $this->params['title'][] = $this->title;
-$this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso más importante';
+// $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso más importante';
+$this->params['subtitle'][] = '';
 ?>
 <div class="container mt50 mb50">
   <div class="row">
@@ -18,8 +19,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-users-2 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Asesoría en RRHH</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h3>Asesoría en RRHH</h3>
             </div>
         </div>
       </a>
@@ -32,8 +32,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-building icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Administración de Nómina</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h3>Administración de Nómina</h3>
             </div>
         </div>
       </a>
@@ -46,8 +45,7 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
                 <i class="icon-award-1 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h4>Gestión de Proyectos</h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing.</p>
+                <h3>Gestión de Proyectos</h3>
             </div>
         </div>
       </a>
@@ -116,12 +114,31 @@ $this->params['subtitle'][] = 'Somos especialistas en la gestión de tu recurso 
 
               <div class="row">
                 <div class="col-md-12 mb30">
-                  <ul class="icons-list">
-                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Educativas:</strong></p></li>
-                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Culturales:</strong></p></li>
-                    <li><p><i class="icon-check-2"></i> <strong>Asesorías en Salud:</strong></p></li>
-                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Sociales:</strong></p></li>
-                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Legales:</strong></p></li>
+                  <ul class="icons-list text-justify">
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Educativas:</strong> Contamos con un equipo interdisciplinario de profesionales con más de 10 años de experiencia en el
+contexto educativo y en el asesoramiento en diversas áreas relacionadas al aprendizaje de la comunidad
+escolar, de su clima, tanto en aula como fuera de ella y en el apoyo del alumnado, además del cuerpo
+docente en temáticas de evaluación curricular, planificación y mejoramiento del liderazgo educacional
+utilizando un enfoque amplio desde diferentes disciplinas.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Culturales:</strong> Nuestro principal enfoque es la vinculación y mediación en temáticas culturales para el trabajo en
+diferentes contextos. Contamos con profesionales de diferentes áreas de la Cultura y las Artes Visuales
+con experiencia en manejo de Gestión de Proyectos en organismos públicos, trabajo con comunidades
+rurales y con patrimonio, reforzando de manera constante el aprendizaje para un mejoramiento en el
+traspaso del conocimiento cultural hacia la sociedad. Siempre guiando a nuestros clientes para una toma
+de decisiones oportuna y efectiva que beneficie el trabajo conjunto en los principales escenarios que se
+puedan presentar.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías en Salud:</strong> Nuestros profesionales cuentan con experiencia en programas de fortalecimiento del entorno y del clima
+de los espacios institucionales con conocimiento en APS, Salud Familiar y Mental. Trabajo con redes de
+apoyo en contextos multiproblemáticos, proporcionando y desarrollando herramientas técnicas además
+de potenciar habilidades personales en los integrantes de los diversos equipos con la finalidad de
+entregar un servicio ajustado a la comunidad.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Sociales:</strong> Nuestros tópicos se vinculan a la orientación en la autogestión de diversas problemáticas dentro de la
+comunidad. Entregando elementos que permitan incrementar el uso de redes comunitarias,
+fortaleciendo el actuar informado en casos de abuso, violencia o discriminación, entre otras, además del
+respectivo asesoramiento en el proceso legal que conlleva una denuncia.</p></li>
+                    <li><p><i class="icon-check-2"></i> <strong>Asesorías Legales:</strong> Capacitar y asesorar a los profesionales y funcionarios de diversas intituciones en asuntos legales que
+beneficien su quehacer diario relacionado a la aplicación de las leyes, normativas y reglamentos en
+cualquier materia de derecho.</p></li>
                   </ul>
                 </div>
               </div>
