@@ -816,7 +816,7 @@ ul.social-list li:last-child a i {
 
 ul.breadcrumbs {
     float: right;
-	margin-top: 15px;
+	/* margin-top: 15px; */
 }
 
 .no-subtitle ul.breadcrumbs {

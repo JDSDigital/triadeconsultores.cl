@@ -19,7 +19,14 @@ $this->params['subtitle'][] = '';
                 <i class="icon-users-2 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h3>Asesoría en RRHH</h3>
+                <h2 class="accent-color">Asesoría en RRHH</h2>
+                <ul class="services-list text-left">
+                  <li>Reclutamiento, Selección y Desarrollo Organizacional.</li>
+                  <li>Capacitación y Entrenamiento.</li>
+                  <li>Asesoría Laboral y Estudios de Compensaciones.</li>
+                  <li>Prevención de Riesgos / Riesgos Psicosociales.</li>
+                  <li>Calidad de Vida y Eventos Corporativos.</li>
+                </ul>
             </div>
         </div>
       </a>
@@ -32,7 +39,11 @@ $this->params['subtitle'][] = '';
                 <i class="icon-building icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h3>Administración de Nómina</h3>
+                <h2 class="accent-color">Administración de Nómina</h2>
+                <ul class="services-list text-left">
+                  <li>Pago de Remuneraciones.</li>
+                  <li>Intervención y Mejoramiento de Procesos.</li>
+                </ul>
             </div>
         </div>
       </a>
@@ -45,7 +56,14 @@ $this->params['subtitle'][] = '';
                 <i class="icon-award-1 icon-medium-effect icon-effect-2"></i>
             </div>
             <div class="service-content">
-                <h3>Gestión de Proyectos</h3>
+                <h2 class="accent-color">Gestión de Proyectos</h2>
+                <ul class="services-list text-left">
+                  <li>Asesorías Educativas.</li>
+                  <li>Asesorías Culturales.</li>
+                  <li>Asesorías en Salud.</li>
+                  <li>Asesorías Sociales.</li>
+                  <li>Asesorías Legales.</li>
+                </ul>
             </div>
         </div>
       </a>
@@ -173,6 +191,9 @@ $(document).ready(function (){
         }, 2000);
     });
 });
+
+$(".service-boxed").SameHeight();
+
 JS;
 $this->registerJs($js);
  ?>

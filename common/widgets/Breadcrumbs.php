@@ -160,8 +160,7 @@ class Breadcrumbs extends Widget
     			<div class="container">
     				<div class="row">
     					<div class="col-md-6">
-    						<h2 class="accent-color-white">' . $this->title[0] . '</h2>
-    						<p class="accent-color-white m0">' . $this->subtitle[0] . '</p>
+    						<h3 class="accent-color-white">' . $this->title[0] . '</h3>
     					</div>
     					<div class="col-md-6">'
                 . Html::tag($this->tag, implode('', $links), $this->options) .

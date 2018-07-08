@@ -54,7 +54,7 @@ $this->params['subtitle'][] = '';
             <?php ActiveForm::end(); ?>
         </div>
         <div class="col-lg-6 contact-map">
-            <iframe src="https://maps.google.com/?ie=UTF8&amp;q=-33.4455056,-70.6235103&amp;output=embed"></iframe>
+            <iframe src="https://maps.google.com/?ie=UTF8&amp;q=-33.445479,-70.621322&amp;output=embed"></iframe>
             <p>Santa Isabel #0739, Providencia, Santiago</p>
         </div>
     </div>

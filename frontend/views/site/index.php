@@ -83,7 +83,7 @@ $this->title = 'Triade Consultores';
 
           <div class="row vertical-align mb50">
             <div class="col-md-4">
-              <?= Html::img(Yii::getAlias('@web') . '/images/bg/03.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
+              <?= Html::img(Yii::getAlias('@web') . '/images/bg/rubik.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
             </div>
             <div class="col-md-8 text-justify">
               <p>Somos un equipo altamente especializados, expertos en servicios de Asesoría en el ámbito del Recurso Humano, Educación, Cultura, Salud, Ciencias Sociales y en las Áreas Legales. Nuestro foco es la realización de un trabajo óptimo, ciñéndonos a los parámetros de nuestros clientes, sin perder nuestro rol como asesores, nos interesa establecer vínculos de confianza,  que puedan apoyar de manera integral el quehacer organizacional.</p>
@@ -94,7 +94,7 @@ $this->title = 'Triade Consultores';
       </div>
 
       <!-- Start Full Width Section 6 -->
-    	<div class="section bg-parallax light-section" style="padding-top:80px; padding-bottom:80px; border-top:0; border-bottom:0; background: url(<?= Url::to(['/images/gallery/6/04.jpg']) ?>);">
+    	<div class="section bg-parallax light-section" style="padding-top:80px; padding-bottom:80px; border-top:0; border-bottom:0; background: url(<?= Url::to(['/images/bg/parallax1.jpg']) ?>);background-size:cover; background-attachment: fixed;">
       	<div class="container">
 
           	<!-- Start Testimonials Carousel -->
@@ -165,12 +165,12 @@ $this->title = 'Triade Consultores';
             </div>
           </div>
           <div class="col-md-5">
-            <?= Html::img(Yii::getAlias('@web') . '/images/bg/06.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
+            <?= Html::img(Yii::getAlias('@web') . '/images/bg/valores.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
           </div>
         </div>
       </div>
 
-      <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/07.jpg" ?>'); background-size: cover; background-position: center;">
+      <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/07.jpg" ?>'); background-size: cover; background-position: center;background-attachment: fixed;">
         <div class="filter pt50 pb30">
           <div class="container text-justify">
             <div class="row mb10">

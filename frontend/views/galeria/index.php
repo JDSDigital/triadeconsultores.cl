@@ -21,7 +21,7 @@ $this->params['subtitle'][] = '';
 
   <div class="row">
     <?php foreach ($categories as $category) : ?>
-      <?php if ($category->id > 5) {break;}?>
+      <?php if ($category->id > 8) {break;}?>
       <div class="col-md-4">
         <div class="gallery-thumb">
           <?= Html::a(
@@ -43,7 +43,7 @@ $this->params['subtitle'][] = '';
 
   <div class="row">
     <?php foreach ($categories as $category) : ?>
-      <?php if ($category->id <= 5) {continue;}?>
+      <?php if ($category->id <= 8) {continue;}?>
       <div class="col-md-4">
         <div class="gallery-thumb">
           <?= Html::a(

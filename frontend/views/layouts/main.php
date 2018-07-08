@@ -236,7 +236,6 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
   </div>
 </footer>
 <!-- End Footer -->
-
 <?php $this->endBody() ?>
 </body>
 </html>

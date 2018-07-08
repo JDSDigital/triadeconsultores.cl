@@ -47,11 +47,14 @@ class m180511_091610_create_images_tables extends Migration
         $this->addForeignKey('fk_xgallery_images-xgallery_categories', 'xgallery_images', 'category_id', 'xgallery_categories', 'id', 'CASCADE', 'CASCADE');
 
         $this->batchInsert('{{%xgallery_categories}}', ['name', 'status', 'created_at', 'updated_at'], [
-            ['Relaciones Interpersonales –<br>Ancud', 1, 0, 0],
-            ['Habilidades Parentales –<br>Curacaví', 1, 0, 0],
-            ['Trabajo en Equipo –<br>Puerto Montt', 1, 0, 0],
-            ['Plan Superación Profesional –<br>San Felipe', 1, 0, 0],
-            ['Liderazgo y Comunicación –<br>RAV, Universidad de Chile', 1, 0, 0],
+            ['Relaciones Interpersonales – Ancud', 1, 0, 0],
+            ['Habilidades Parentales – Curacaví', 1, 0, 0],
+            ['Trabajo en Equipo – Puerto Montt', 1, 0, 0],
+            ['Plan Superación Profesional – San Felipe', 1, 0, 0],
+            ['Liderazgo y Comunicación – RAV, Universidad de Chile', 1, 0, 0],
+            ['Abuso Sexual en Menores, CHCC - Angol', 1, 0, 0],
+            ['Autocuidado Educativo- Municipalidad de Paine', 1, 0, 0],
+            ['Espectro del Transtorno Autista - Quinta de Tilcoco', 1, 0, 0],
             ['Ferias Laborales', 1, 0, 0],
             ['Reclutamiento y Selección', 1, 0, 0],
         ]);
@@ -60,55 +63,44 @@ class m180511_091610_create_images_tables extends Migration
             ['1', '1', '01.jpg', 1, 0, 0],
             ['1', '2', '02.jpg', 1, 0, 0],
             ['1', '3', '03.jpg', 1, 0, 0],
-            ['1', '4', '04.jpg', 1, 0, 0],
-            ['1', '5', '05.jpg', 1, 0, 0],
-            ['1', '6', '06.jpg', 1, 0, 0],
-            ['1', '7', '07.jpg', 1, 0, 0],
-            ['1', '8', '08.jpg', 1, 0, 0],
-            ['1', '9', '09.jpg', 1, 0, 0],
-            ['1', '10', '10.jpg', 1, 0, 0],
 
             ['2', '1', '01.jpg', 1, 0, 0],
             ['2', '2', '02.jpg', 1, 0, 0],
             ['2', '3', '03.jpg', 1, 0, 0],
-            ['2', '4', '04.jpg', 1, 0, 0],
 
             ['3', '1', '01.jpg', 1, 0, 0],
             ['3', '2', '02.jpg', 1, 0, 0],
             ['3', '3', '03.jpg', 1, 0, 0],
-            ['3', '4', '04.jpg', 1, 0, 0],
-            ['3', '5', '05.jpg', 1, 0, 0],
-            ['3', '6', '06.jpg', 1, 0, 0],
-            ['3', '7', '07.jpg', 1, 0, 0],
-            ['3', '8', '08.jpg', 1, 0, 0],
-            ['3', '9', '09.jpg', 1, 0, 0],
-            ['3', '10', '10.jpg', 1, 0, 0],
-            ['3', '11', '11.jpg', 1, 0, 0],
-            ['3', '12', '12.jpg', 1, 0, 0],
-            ['3', '13', '13.jpg', 1, 0, 0],
-            ['3', '14', '14.jpg', 1, 0, 0],
-            ['3', '15', '15.jpg', 1, 0, 0],
 
             ['4', '1', '01.jpg', 1, 0, 0],
             ['4', '2', '02.jpg', 1, 0, 0],
             ['4', '3', '03.jpg', 1, 0, 0],
-            ['4', '4', '04.jpg', 1, 0, 0],
-            ['4', '5', '05.jpg', 1, 0, 0],
 
             ['5', '1', '01.jpg', 1, 0, 0],
             ['5', '2', '02.jpg', 1, 0, 0],
             ['5', '3', '03.jpg', 1, 0, 0],
-            ['5', '4', '04.jpg', 1, 0, 0],
-            ['5', '5', '05.jpg', 1, 0, 0],
 
             ['6', '1', '01.jpg', 1, 0, 0],
             ['6', '2', '02.jpg', 1, 0, 0],
             ['6', '3', '03.jpg', 1, 0, 0],
-            ['6', '4', '04.jpg', 1, 0, 0],
 
             ['7', '1', '01.jpg', 1, 0, 0],
             ['7', '2', '02.jpg', 1, 0, 0],
             ['7', '3', '03.jpg', 1, 0, 0],
+
+            ['8', '1', '01.jpg', 1, 0, 0],
+            ['8', '2', '02.jpg', 1, 0, 0],
+
+            ['9', 'Feria Independencia', '01.jpg', 1, 0, 0],
+            ['9', 'Feria Peñalolen', '02.jpg', 1, 0, 0],
+            ['9', 'Feria Puente Alto', '03.jpg', 1, 0, 0],
+            ['9', 'Mini Feria Independencia', '04.jpg', 1, 0, 0],
+
+            ['10', '1', '01.jpg', 1, 0, 0],
+            ['10', '2', '02.jpg', 1, 0, 0],
+            ['10', '3', '03.jpg', 1, 0, 0],
+            ['10', '4', '04.jpg', 1, 0, 0],
+            ['10', '5', '05.jpg', 1, 0, 0],
         ]);
 
     }
