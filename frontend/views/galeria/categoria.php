@@ -17,7 +17,7 @@ $this->params['subtitle'][] = 'Fotos del evento';
     <?php foreach ($images as $image) : ?>
       <div class="portfolio-item logo animation col-md-3">
           <!-- Start Portfolio Item Thumb -->
-          <div class="portfolio-thumb crop">
+          <div class="portfolio-thumb">
               <a class="lightbox" title="<?= $category->name ?>" href="<?= Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/' . $image->file ?>">
                   <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
                   <?= Html::img(Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/' . $image->file, ['class' => 'img-responsive']) ?>

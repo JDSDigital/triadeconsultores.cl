@@ -25,7 +25,7 @@ $this->params['subtitle'][] = '';
       <div class="col-md-4">
         <div class="gallery-thumb">
           <?= Html::a(
-            Html::img(Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/01.jpg', ['class' => 'img-responsive crop']) . '<span></span><h2>' . $category->name . '</h2>',
+            Html::img(Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/01.jpg', ['class' => 'img-responsive crop']) . '<span></span><h3>' . $category->name . '</h3>',
             ['//galeria/categoria', 'id' => $category->id]) ?>
         </div>
       </div>
@@ -47,7 +47,7 @@ $this->params['subtitle'][] = '';
       <div class="col-md-4">
         <div class="gallery-thumb">
           <?= Html::a(
-            Html::img(Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/01.jpg', ['class' => 'img-responsive crop']) . '<span></span><h2>' . $category->name . '</h2>',
+            Html::img(Yii::getAlias('@web') . '/images/gallery/' . $category->id . '/01.jpg', ['class' => 'img-responsive crop']) . '<span></span><h3>' . $category->name . '</h3>',
             ['//galeria/categoria', 'id' => $category->id]) ?>
         </div>
       </div>
