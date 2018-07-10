@@ -23,8 +23,46 @@ $this->title = 'Triade Consultores';
                       <img src="<?= Yii::getAlias('@web') . '/images/bg/04-2.jpg' ?>" data-fullwidthcentering="on" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                       <!-- LAYER NR. 1 -->
+                      <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sfr start"
+                          data-x="430"
+                          data-y="180"
+
+                          data-speed="300"
+                          data-start="1600"
+                          data-easing="easeOutExpo">Triade
+                      </div>
+
+                      <!-- LAYER NR. 2 -->
+                      <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sfr start"
+                          data-x="430"
+                          data-y="250"
+
+                          data-speed="300"
+                          data-start="1900"
+                          data-easing="easeOutExpo">Consultores
+                      </div>
+
+                      <!-- LAYER NR. 5 -->
+                      <div class="tp-caption sfl start"
+                          data-x="200"
+                          data-y="130"
+
+                          data-speed="1000"
+                          data-start="1000"
+                          data-easing="Power1.easeOut"><img src="<?= Yii::getAlias('@web') . '/images/favicon/favicon-196x196.png' ?>" alt="" />
+                      </div>
+
+                  </li>
+
+                  <!-- SLIDE 2 -->
+                  <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+
+                      <!-- MAIN IMAGE -->
+                      <img src="<?= Yii::getAlias('@web') . '/images/bg/09.jpg' ?>" data-fullwidthcentering="on" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                      <!-- LAYER NR. 1 -->
                       <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sft start"
-                          data-x="540"
+                          data-x="150"
                           data-y="150"
 
                           data-speed="300"
@@ -34,7 +72,7 @@ $this->title = 'Triade Consultores';
 
                       <!-- LAYER NR. 2 -->
                       <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sfl start"
-                          data-x="540"
+                          data-x="150"
                           data-y="220"
 
                           data-speed="300"
@@ -44,22 +82,12 @@ $this->title = 'Triade Consultores';
 
                       <!-- LAYER NR. 3 -->
                       <div class="tp-caption uppercase biggest_font_size boldest_font_weight wite_font_color sfr start"
-                          data-x="540"
+                          data-x="150"
                           data-y="290"
 
                           data-speed="300"
                           data-start="2200"
                           data-easing="easeOutExpo">Efectiva
-                      </div>
-
-                      <!-- LAYER NR. 5 -->
-                      <div class="tp-caption sfl start"
-                          data-x="180"
-                          data-y="bottom"
-
-                          data-speed="1000"
-                          data-start="1000"
-                          data-easing="Power1.easeOut"><img src="<?= Yii::getAlias('@web') . '/images/slide-02-image-01.png' ?>" alt="" />
                       </div>
 
                   </li>
@@ -81,9 +109,9 @@ $this->title = 'Triade Consultores';
 
           <div class="hr5 mt10 mb50"></div>
 
-          <div class="row vertical-align mb50">
+          <div class="row mb50">
             <div class="col-md-4">
-              <?= Html::img(Yii::getAlias('@web') . '/images/bg/rubik.jpg', ['class' => 'img-responsive wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
+              <?= Html::img(Yii::getAlias('@web') . '/images/bg/rubik.jpg', ['class' => 'img-responsive pb30 wow fadeInLeft', 'data-wow-delay' => '1s']); ?>
             </div>
             <div class="col-md-8 text-justify">
               <p>Somos un equipo altamente especializados, expertos en servicios de Asesoría en el ámbito del Recurso Humano, Educación, Cultura, Salud, Ciencias Sociales y en las Áreas Legales. Nuestro foco es la realización de un trabajo óptimo, ciñéndonos a los parámetros de nuestros clientes, sin perder nuestro rol como asesores, nos interesa establecer vínculos de confianza,  que puedan apoyar de manera integral el quehacer organizacional.</p>
@@ -121,7 +149,7 @@ $this->title = 'Triade Consultores';
 
           <div class="hr5 mt10 mb50"></div>
 
-          <div class="row vertical-align mb50">
+          <div class="row mb50">
             <div class="col-md-7 service-box-values">
               <div class="col-md-12 service-box service-icon-left-more">
                   <div class="service-icon">
@@ -165,12 +193,12 @@ $this->title = 'Triade Consultores';
             </div>
           </div>
           <div class="col-md-5">
-            <?= Html::img(Yii::getAlias('@web') . '/images/bg/valores.jpg', ['class' => 'img-responsive wow fadeInRight', 'data-wow-delay' => '1s']); ?>
+            <?= Html::img(Yii::getAlias('@web') . '/images/bg/valores.jpg', ['class' => 'img-responsive pb30 wow fadeInRight', 'data-wow-delay' => '1s']); ?>
           </div>
         </div>
       </div>
 
-      <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/07.jpg" ?>'); background-size: cover; background-position: center;background-attachment: fixed;">
+      <div class="mision bg-parallax" style="background: url('<?= Yii::getAlias("@web") . "/images/bg/08.jpg" ?>'); background-size: cover; background-position: center;background-attachment: fixed;">
         <div class="filter pt50 pb30">
           <div class="container text-justify">
             <div class="row mb10">
@@ -250,7 +278,7 @@ $this->title = 'Triade Consultores';
                             <?php foreach ($clients as $client) : ?>
                               <div class="client-item item vertical-align">
                                 <div class="client-item-inner">
-                                  <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client->file, ['class' => 'img-responsive']), ['']) ?>
+                                  <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client->file, ['class' => 'img-responsive']), ($client->url) ? Url::to($client->url, true) : ['']) ?>
                                 </div>
                               </div>
                             <?php endforeach; ?>

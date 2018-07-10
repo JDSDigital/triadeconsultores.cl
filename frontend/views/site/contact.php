@@ -29,7 +29,7 @@ $this->params['subtitle'][] = '';
                 <?= $form->field($model, 'email') ?>
               </div>
               <div class="col-md-4">
-                <?= $form->field($model, 'subject') ?>
+                <?= $form->field($model, 'phone') ?>
               </div>
             </div>
             <div class="row">

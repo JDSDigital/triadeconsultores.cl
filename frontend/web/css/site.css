@@ -134,8 +134,14 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+.navbar-brand {
+  padding: 0;
+  height: 78px;
+}
 .navbar-brand img {
-  max-width: 200px;
+  padding: 5px;
+  height: 100%;
+  /* max-width: 200px; */
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;

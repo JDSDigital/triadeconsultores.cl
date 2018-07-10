@@ -24,7 +24,7 @@ $this->params['subtitle'][] = '';
         <div class="col-md-3 mt30 mb30">
           <div class="client-item vertical-align">
             <div class="client-item-inner">
-              <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client->file, ['class' => 'img-responsive']), Url::to($client->url, true)) ?>
+              <?= Html::a(Html::img(Yii::getAlias('@web') . '/images/clients/' . $client->file, ['class' => 'img-responsive']), ($client->url) ? Url::to($client->url, true) : ['']) ?>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ $this->params['subtitle'][] = '';
   <div class="row">
     <div class="col-md-4">
       <p>Estamos habilitados en:</p>
-      <?= Html::img(Yii::getAlias('@web') . '/images/misc/convenio-marco-2.png', ['class' => 'img-responsive mb30']) ?>
+      <?= Html::img(Yii::getAlias('@web') . '/images/misc/convenio-marco.png', ['class' => 'img-responsive mb30']) ?>
       <!-- <p>Reclutamiento y Selección ID 2239-4-LR16</p> -->
     </div>
     <div class="col-md-8">
