@@ -32,16 +32,16 @@ $this->params['subtitle'][] = '';
     <?php endforeach; ?>
   </div>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
       <p>Estamos habilitados en:</p>
-      <?= Html::img(Yii::getAlias('@web') . '/images/misc/convenio-marco.png', ['class' => 'img-responsive mb30']) ?>
+      <?= Html::img(Yii::getAlias('@web') . '/images/misc/convenio-marco.png', ['class' => 'img-responsive mb30 pr60 pl60']) ?>
       <!-- <p>Reclutamiento y Selección ID 2239-4-LR16</p> -->
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-center">
       <p>Y en proceso de:</p>
       <div class="row">
         <div class="col-md-6">
-          <?= Html::img(Yii::getAlias('@web') . '/images/misc/registro-ate.jpg', ['class' => 'img-responsive mb30']) ?>
+          <?= Html::img(Yii::getAlias('@web') . '/images/misc/registro-ate.jpg', ['class' => 'img-responsive mb30 pr50 pl50']) ?>
         </div>
         <div class="col-md-6">
           <div class="otec accent-color mb30">Creación de Otec</div>

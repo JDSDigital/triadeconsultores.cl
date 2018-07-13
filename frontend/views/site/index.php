@@ -130,7 +130,7 @@ $this->title = 'Triade Consultores';
                   <!-- Testimonial 1 -->
                   <div class="testimonials item">
                   	<div class="testimonial-content">
-                    	<p>Creemos fielmente en las capacidades técnicas y por sobre todo en las distintas habilidades que pueda traer  y desarrollar una persona.</p>
+                    	<p class="accent-color-white">Creemos fielmente en las capacidades técnicas y por sobre todo en las distintas habilidades que pueda traer  y desarrollar una persona.</p>
                     </div>
                   </div>
               </div>
