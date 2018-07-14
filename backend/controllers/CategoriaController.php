@@ -116,9 +116,21 @@ class CategoriaController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
+        $url = Yii::getAlias('@frontend') . '/web/images/clients/';
+
+        foreach ($model->clientsLogos as $logo) {
+
+          if (unlink($url . $logo->file) && $logo->delete())
+            continue;
+
+        }
+
+        if (!$model->delete())
+          Yii::$app->session->setFlash('error', 'Error eliminando la categoría.');
 
         return $this->redirect(['index']);
+        
     }
 
     /**
